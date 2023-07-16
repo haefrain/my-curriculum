@@ -4,6 +4,7 @@
       <v-col cols="11" xs="11" sm="11" md="8" lg="6" xl="6" class="full-border">
         <Header />
         <NuxtPage/>
+        <Footer />
       </v-col>
     </v-row>
   </div>
