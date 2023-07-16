@@ -74,6 +74,33 @@ export default {
             listImages,
             listTech
         }
+    },
+    head() {
+        return {
+            title: 'Resumen de Efrain Hernandez',
+            meta: [
+                {
+                hid: 'description',
+                name: 'description',
+                content: 'Este es el resumen de mi CV en español como desarrollador fullstack web'
+                },
+                {
+                hid: "og:title",
+                property: "og:title",
+                content: "Resumen de Efrain Hernandez",
+                },
+                {
+                hid: "og:description",
+                property: "og:description",
+                content: "Este es el resumen de mi CV en español como desarrollador fullstack web",
+                },
+                {
+                hid: "og:image",
+                property: "og:image",
+                content: "./efrain_hernandez.png",
+                },
+            ],
+        }
     }
 }
 </script>
